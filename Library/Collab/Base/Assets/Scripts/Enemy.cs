@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour {
 	private GameObject player;
 	private int level;
 
-	void Awake () {	
+	void Start () {	
 
 		startLife = life;
 		startSpeed = speed;

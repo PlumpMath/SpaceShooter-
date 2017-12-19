@@ -133,7 +133,6 @@ public class Game : MonoBehaviour {
     	// reset all enemies
     	foreach(Transform child in wave.transform)
 		{
-			print("ENEMY");
 			child.gameObject.GetComponent<Enemy>().levelup();
 		}
 
